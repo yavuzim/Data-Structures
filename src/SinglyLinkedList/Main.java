@@ -2,6 +2,7 @@ package SinglyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("** Singly Linked List **");
         List list = new List();
         list.print();
         list.prepend(new Node(1));

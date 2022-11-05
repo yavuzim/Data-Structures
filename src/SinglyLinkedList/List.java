@@ -2,7 +2,6 @@ package SinglyLinkedList;
 
 public class List {
     Node head, tail, temp;
-
     public List() {
         this.head = null;
         this.tail = null;

@@ -2,6 +2,7 @@ package DoublyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("** Doubly Linked List **");
         List list = new List();
         list.prepend(new Node(25));
         list.print();
